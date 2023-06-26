@@ -1,0 +1,97 @@
+.event-form {
+  max-width: 30%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fadfd0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.event-form form {
+  display: grid;
+  gap: 10px;
+}
+
+.event-form label {
+  display: block;
+  font-weight: bold;
+}
+
+.event-form input {
+  resize: none;
+  width: 96%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.event-form textarea {
+  resize: none;
+  width: 96%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: large;
+  min-height: 80px;
+}
+
+.event-form textarea:focus {
+  outline: none;
+}
+
+.event-form .poster-preview {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.event-form .cover-preview {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.event-form .poster-preview img {
+  max-width: 70%;
+  max-height: 70%;
+}
+
+.event-form .cover-preview img {
+  max-width: 70%;
+  max-height: 70%;
+}
+
+.event-form .submit-button {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.event-form button {
+  padding: 10px 20px;
+  background-color: #ff7b00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.event-form button:hover {
+  background-color: #0056b3;
+}
+
+#header {
+  text-align: center;
+}
+
+.event-category select {
+  width: fit-content;
+  text-align: center;
+  font-size: inherit;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.event-form p {
+  color: #7a7a7a;
+  margin-top: 0%;
+}
